@@ -17,5 +17,5 @@
 //= require_tree .
 
 $(document).on('turbolinks:lord', function () {
-  alert('Hello World')
+  alert('Hello World!')
 });
