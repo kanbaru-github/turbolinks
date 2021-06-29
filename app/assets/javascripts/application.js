@@ -16,6 +16,7 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).on('turbolinks:lord', function () {
-  alert('Hello World!')
+$(document).on('turbolinks:load', function () {
+  // turbolinks:loadと記述することで、Turbolinksで遷移、そうではないとき（直接URLでアクセスするなど）と両方で処理を発火させるための記述になります。
+  alert('Hello World')
 });
